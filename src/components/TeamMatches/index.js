@@ -75,8 +75,6 @@ class TeamMatches extends Component {
   }
 
   renderTeamMatches = () => {
-    const {match} = this.props
-    const {params} = match
     const {recentMatchesData} = this.state
     const {teamBannerURL, latestMatch} = recentMatchesData
 
